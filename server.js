@@ -7,4 +7,7 @@ app.get("/home",(req,res)=>{
 app.get("/about",(req,res)=>{
     res.send("<h1>This is about Page</h1>")
 })
+app.get("/sayanti",(req,res)=>{
+    res.send("<h2>Myself Sayanti Mondal</h2>")
+})
 app.listen(9002)
